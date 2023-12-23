@@ -10,16 +10,19 @@
 
 /* STARTS HEADER */
 header {
-    background-color: rgb(250, 250, 250);
+    background: linear-gradient(to right, #ffffff, #ffc400e0);
     padding-bottom: 2em;
+    padding-top: 2em;
+    padding-left: 2.8em;
     position: fixed;
     width: 100vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.253);
 }
+
 
 h2 {
     display: inline-flex;
-    margin-top: 1em;
-    margin-left: 2em;
+    text-shadow: 18px 8px 3px #00000056;
     font-weight: 900;
 }
 /* ENDS HEADER */
@@ -27,18 +30,20 @@ h2 {
 /* START NAVBAR  */
     .navBar {
     display: inline-flex;
-    justify-content: flex-end;
+    padding-left: 30vw;
     }
 
     .navBar > ul {
     display: flex;
     list-style-type: none;
+    text-align: flex-end;
     }
 
     .navBar > ul > li > a {
     text-decoration: none;
     margin: 0 1em 0 1em;
     font-weight: 600;
+    
     }
 
     a {
@@ -51,7 +56,7 @@ h2 {
 
 /* STARTS INICIO */
     #sec_home {
-        padding: 20em;
+        padding: 20em 0 20em 12em;
         background-image: url(../images/electricist.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -59,22 +64,24 @@ h2 {
         background-attachment: fixed;
     }
     #sec_home > p {
-        width: 8em;
-        font-size: 3em;
+        width: 18.7em;
+        font-size: 2em;
         font-weight: 900;
-        color: #4b4949;
+        color: rgb(2, 2, 2);
         margin-bottom: 10px;
         padding: 15px;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.651);
+        border-radius: 20px 0 20px 0;
+        background: linear-gradient(to right, #ffffff, #ffc400a1);
+        /* text-shadow: 2px 3px 1px #000; */
     }
 
     #sec_home > h1 {
         font-size: 4em;
         background-color: #ffffffa6;
         padding: 15px;
+        margin-top: 0.5em;
         width: 12em;
-        border-radius: 5px;
+        border-radius: 0 20px 0 20px;
         display: inline-flex;
     }
 
@@ -95,8 +102,9 @@ h2 {
         height: 50%;
         text-align: center;
     }
-    .sec_1__divs_p {
+    .divsSec1 > p {
         padding-bottom: 2em;
+        font-weight: 900;
     }
 /* ENDS SECTION 1 */
 
@@ -113,9 +121,9 @@ h2 {
         width: 15%;
         height: 100%;
         padding: 1em;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         text-align: center;
-        border-radius: 5px  ;
+        /* border-radius: 5px  ; */
     }
     .sec_2__divs_p {
         padding-bottom: 2em;
@@ -128,3 +136,10 @@ h2 {
 
 
 /* ENDS SECTION 3 */
+
+
+
+
+/* MEDIA QUERY */
+    /* Media query para dispositivos con un ancho de pantalla de 600px o menos */
+/* ENDS MEDIA QUERY */
