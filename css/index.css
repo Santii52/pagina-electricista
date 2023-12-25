@@ -11,8 +11,8 @@
 /* STARTS HEADER */
 header {
     background: linear-gradient(to right, #ffffff, #ffc400e0);
-    padding-bottom: 2em;
-    padding-top: 2em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
     padding-left: 2.8em;
     position: fixed;
     width: 100vw;
@@ -22,7 +22,6 @@ header {
 
 h2 {
     display: inline-flex;
-    text-shadow: 18px 8px 3px #00000056;
     font-weight: 900;
 }
 /* ENDS HEADER */
@@ -56,7 +55,7 @@ h2 {
 
 /* STARTS INICIO */
     #sec_home {
-        padding: 20em 0 20em 12em;
+        padding: 13em 0 13em 12em;
         background-image: url(../images/electricist.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -71,18 +70,22 @@ h2 {
         margin-bottom: 10px;
         padding: 15px;
         border-radius: 20px 0 20px 0;
-        background: linear-gradient(to right, #ffffff, #ffc400a1);
+        background: linear-gradient(to right, #ffffffd2, #ffc62a94);
         /* text-shadow: 2px 3px 1px #000; */
     }
 
     #sec_home > h1 {
-        font-size: 4em;
-        background-color: #ffffffa6;
+        font-size: 3.7em;
+        color: rgb(0, 0, 0);
+        background-color: #e7e7e7a6;
         padding: 15px;
         margin-top: 0.5em;
-        width: 12em;
-        border-radius: 0 20px 0 20px;
+        font-weight: 600;
+        width: 11.6em;
+        border-radius: 0 60px 0 60px;
         display: inline-flex;
+    
+        background: linear-gradient(to right, #fffffff8, #ffc62a94);
     }
 
 /* ENDS INICIO */
@@ -92,52 +95,86 @@ h2 {
     #sec_1 {
         display: flex;
         justify-content: space-evenly;
+        padding-top: 4.2em;
+        padding-bottom: 6em;
+        align-items: center;
+        text-align: center;
+        flex: 1;
+        background: linear-gradient(to right, #fffffff8, #ffc62a94);
     }
     #sec_1 > p {
         display: flex;
         text-align: center;
     }
+
+    .imagen_sec1{
+        width: 7em;
+        margin: 1em 0 2em 0;
+    }
+
     .divsSec1 {
         width: 20%;
         height: 50%;
         text-align: center;
+        
     }
     .divsSec1 > p {
-        padding-bottom: 2em;
         font-weight: 900;
     }
+    
+    
 /* ENDS SECTION 1 */
 
 
 
 /* STARTS SECTION 2 */
     #sec_2 {
-        padding-top: 6em;
-        padding-bottom: 6em;
         display: flex;
-        justify-content: space-evenly;
+        background: linear-gradient(to bottom, #00000094, #ffffff94, #ffbe0b94 );
     }
-    .divsSec2 {
-        width: 15%;
-        height: 100%;
-        padding: 1em;
-        /* border: 1px solid black; */
-        text-align: center;
-        /* border-radius: 5px  ; */
+    .sec_2__div1 {
+        width: 55%;
+        font-weight: 900;
+        margin: 8em;
+        font-size: 1em;
     }
-    .sec_2__divs_p {
-        padding-bottom: 2em;
+    .sec_2__div2 {
+        width: 45%;
+        font-weight: 900;
+        margin: 10em;
+        font-size: 1em;
+    } 
+
+    .sec_2__div1_pTitle {
+        font-size: 2em;
+        padding: 0.4em;
     }
+
 /* ENDS SECTION 2 */
 
 
-/* STARTS SECTION 3 */
+/* STARTS FOOTER */
+    footer {
+        font-weight: 900;
+        padding: 5em;
+        display: flex;
+        justify-content: space-between;
+        text-align: flex-start;
+    }
 
+    .footer__div1 {
+        width: 70%;
 
+        
+        display: flex;
+    }
 
-/* ENDS SECTION 3 */
+    .footer__div2 > ul {
+        list-style-type: none;
+    }
+    
 
-
+/* ENDS FOOTER */
 
 
 /* MEDIA QUERY */
