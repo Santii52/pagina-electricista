@@ -8,6 +8,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    max-height: 50vh; /* Limita el ancho máximo del cuerpo al 100% del tamaño de la ventana */
+    
+}
+
 /* STARTS HEADER */
 header {
     background: linear-gradient(to right, #ffffff, #ffc400e0);
@@ -55,7 +60,7 @@ h2 {
 
 /* STARTS INICIO */
     #sec_home {
-        padding: 13em 0 13em 12em;
+        padding: 30vh 0 30vh 10vw;
         background-image: url(../images/electricist.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -118,8 +123,12 @@ h2 {
         text-align: center;
         
     }
+    .sec_1__divs_p {
+        font-size: 1.3em;
+    }
     .divsSec1 > p {
         font-weight: 900;
+        font-size: ;   
     }
     
     
@@ -136,13 +145,13 @@ h2 {
         width: 55%;
         font-weight: 900;
         margin: 8em;
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .sec_2__div2 {
         width: 45%;
         font-weight: 900;
         margin: 10em;
-        font-size: 1em;
+        font-size: 0.9em;
     } 
 
     .sec_2__div1_pTitle {
@@ -160,20 +169,23 @@ h2 {
         display: flex;
         justify-content: space-between;
         text-align: flex-start;
+        background-color: rgb(51, 46, 46);
+        color: rgb(221, 211, 211);
     }
 
     .footer__div1 {
-        width: 70%;
-
+        width: 30%;
+        margin-right: 8em;
         
-        display: flex;
+        
     }
 
     .footer__div2 > ul {
         list-style-type: none;
+        padding-right: 5em;
+
     }
     
-
 /* ENDS FOOTER */
 
 
