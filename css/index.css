@@ -8,10 +8,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    max-height: 50vh; /* Limita el ancho máximo del cuerpo al 100% del tamaño de la ventana */
+/* body {
+    max-height: 50vh; */ /* Limita el ancho máximo del cuerpo al 100% del tamaño de la ventana */
     
-}
+/* } */
 
 /* STARTS HEADER */
 header {
@@ -53,6 +53,12 @@ h2 {
     a {
         color: black;
     }
+
+    a:hover {
+        color: rgb(250, 42, 6);
+        transition: color 0.10s;
+    }
+
 /* ENDS NAVBAR */
 
 
